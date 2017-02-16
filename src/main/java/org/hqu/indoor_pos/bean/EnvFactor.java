@@ -25,6 +25,8 @@ public class EnvFactor implements Serializable{
 	
 	/*一米处接收到的rssi值*/
 	private Double p0;
+
+	//create table env_factor
 	
 	public EnvFactor(Integer roomId, Double height, Double n, Double p0) {
 		super();

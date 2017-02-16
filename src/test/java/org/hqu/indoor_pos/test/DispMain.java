@@ -80,7 +80,7 @@ public class DispMain extends JFrame{
 		iniHScale = 395;
 		
 		/*Get the image from filepath.*/
-		image = Toolkit.getDefaultToolkit().getImage("image\\test.jpg");
+		image = Toolkit.getDefaultToolkit().getImage("image/1105.jpg");
 		
 		new Thread(new PaintThread()).start();
 	}
@@ -98,7 +98,7 @@ public class DispMain extends JFrame{
 	        
 			try {  
 				
-	            socket = new Socket("localhost", 50005);  
+	            socket = new Socket("localhost", 50006);
 	            
 	            while(true){
 	            	
