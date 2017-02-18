@@ -80,7 +80,7 @@ public class DispMain extends JFrame{
 		iniHScale = 395;
 		
 		/*Get the image from filepath.*/
-		image = Toolkit.getDefaultToolkit().getImage("image/1105.jpg");
+		image = Toolkit.getDefaultToolkit().getImage("/Users/xwx/projects/IndoorPos/image/map.jpg");
 		
 		new Thread(new PaintThread()).start();
 	}
